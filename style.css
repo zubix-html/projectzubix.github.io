@@ -1,0 +1,30 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+.img{
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+    display: block;
+    border-radius: 7px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.name {
+    padding-top: 10px;
+    padding-left: 20px;
+    color: rgb(177, 88, 103);
+}
+
+.name:hover {
+    color: rgb(168, 36, 36);
+}
+
+.post{
+    color: palevioletred;
+}
